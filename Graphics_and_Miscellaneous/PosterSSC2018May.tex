@@ -1,0 +1,449 @@
+% --------------------------------------------------------------------------- %
+% Poster for the SSC 2012 Conference (Case Study).      %
+% --------------------------------------------------------------------------- %
+% Created with Brian Amberg's LaTeX Poster Template. Please refer for the     %
+% attached README.md file for the details how to compile with `pdflatex`.     %
+% --------------------------------------------------------------------------- %
+% $LastChangedDate:: 2011-09-11 10:57:12 +0200 (V, 11 szept. 2011)          $ %
+% $LastChangedRevision:: 128                                                $ %
+% $LastChangedBy:: rlegendi                                                 $ %
+% $Id:: poster.tex 128 2011-09-11 08:57:12Z rlegendi                        $ %
+% --------------------------------------------------------------------------- %
+\documentclass[paperwidth=58in,paperheight=47in,portrait]{baposter}
+
+\usepackage{relsize}		% For \smaller
+\usepackage{url}			% For \url
+\usepackage{epstopdf}	% Included EPS files automatically converted to PDF to include with pdflatex
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+
+%\setlength{\columnseprule}{1pt}
+
+\def\thousandseparator{,}
+
+%%% Global Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\graphicspath{{pix/}}	% Root directory of the pictures 
+\tracingstats=2			% Enabled LaTeX logging with conditionals
+
+%%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{bordercol}{RGB}{0,0,0}
+\definecolor{headercol1}{RGB}{106,0,255}
+\definecolor{headercol2}{RGB}{106,0,255}
+\definecolor{headerfontcol}{RGB}{255,255,255}
+\definecolor{boxcolor}{RGB}{255,255,255}
+\definecolor{backcolor1}{RGB}{216,255,150}
+\definecolor{backcolor2}{RGB}{216,255,150}
+\definecolor{titlecol}{RGB}{0,0,0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Utility functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Save space in lists. Use this after the opening of the list %%%%%%%%%%%%%%%%
+\newcommand{\compresslist}{
+	\setlength{\itemsep}{1pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Document Start %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\typeout{Poster rendering started}
+
+%%% Setting Background Image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\background{
+%	\begin{tikzpicture}[remember picture,overlay]%
+%	\draw (current page.north west)+(-2em,2em) node[anchor=north west]
+%	{\includegraphics[height=1.1\textheight]{background}};
+%	\end{tikzpicture}
+%}
+
+%%% General Poster Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Eye Catcher, Title, Authors and University Images %%%%%%%%%%%%%%%%%%%%%%
+\begin{poster}{
+	grid=false,
+	% Option is left on true though the eyecatcher is not used. The reason is
+	% that we have a bit nicer looking title and author formatting in the headercol
+	% this way
+	eyecatcher=true, 
+	borderColor=bordercol,
+	headerColorOne=headercol1,
+	headerColorTwo=headercol2,
+	headerFontColor=headerfontcol,
+	% Only simple background color used, no shading, so boxColorTwo isn't necessary
+	boxColorOne=boxcolor,
+	headershape=rounded,
+	headerfont=\Large\sf\bf,
+	textborder=rounded,
+	background=shadetb,
+	bgColorOne=backcolor1,
+	bgColorTwo=backcolor2,
+	headerborder=closed,
+  boxshade=plain,
+  columns=4
+}
+%%% Eye Cacther %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+%\setlength\fboxsep{0pt}
+%\setlength\fboxrule{0.5pt}
+%	\fbox{
+%		\begin{minipage}{14em}
+			%\includegraphics[width=14em]{SFU.png}
+			\includegraphics[width=14em]{UFV.png}
+%			\includegraphics[width=4em,height=4em]{elte_logo} \\
+%			\includegraphics[width=10em,height=4em]{dynanets_logo}
+%			\includegraphics[width=4em,height=4em]{aitia_logo}
+%		\end{minipage}
+%	}
+}
+%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\sf\bf
+	\color{titlecol}Investigating the Effect of Design Weights in a Complex Survey Design
+}
+%%% Authors %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+	\vspace{1em} Jonathan and Dong , University of the Fraser Valley\\
+	{\smaller abelivea@sfu.ca, zhengs@sfu.ca}
+}
+%%% Logo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+% The logos are compressed a bit into a simple box to make them smaller on the result
+% (Wasn't able to find any bigger of them.)
+%\setlength\fboxsep{0pt}
+%\setlength\fboxrule{0.5pt}
+%	\fbox{
+%		\begin{minipage}{14em}
+			%\includegraphics[width=14em]{SFU.png}
+			\includegraphics[width=14em]{UFV.png}
+%			\includegraphics[width=4em,height=4em]{elte_logo} \\
+%			\includegraphics[width=10em,height=4em]{dynanets_logo}
+%%			\includegraphics[width=4em,height=4em]{aitia_logo}
+%		\end{minipage}
+%	}
+}
+
+
+\headerbox{Introduction}{name=Introduction,column=0,row=0}{
+\textbf{Objective}:  Determine the risk factors for hypertension among Canadians with and without design weights. Investigate whether these risk factors depend on gender or age.\\
+
+\textbf{Study}: Statistics Canada conducted Cycle 3 of their Canadian Health Measures Survey from 2012-2013. 
+\begin{itemize}
+\item A Mobile Examination Centre (MEC) was used to take direct physical measurements from approximately 3000 Canadians across the ten provinces.
+\item Survey weights were assigned to each study participant to insure that the sample represented the target population.
+\item Due to the complexity of the stratified three-stage sample design, bootstrap weights were created to estimate the variance of estimators.
+\end{itemize}
+
+
+
+\textbf{Data}: The following measurements were taken directly from study participants, and these were considered to be potential risk factors for hypertension in our analysis:\\
+\begin{itemize}
+\item CLINIC ID: Unique record identifiers.
+\item SMK 12: Current smoking status: 1 daily; 2 occasional; 3 non-smoker.
+\item CLC SEX: Sex at clinic visit: 1 male, 2 female.
+\item CLC AGE: Age in years at clinic visit: 20 to 79.
+\item HWMDBMI: Body mass index in kg/m2. Based on measured height and weight. 
+\item HIGHBP: Categorized hypertensive: 1 yes, 2 no.  A respondent is categorized as hypertensive if he/she has SPB $\ge 140$ mmHg or DBP $\ge 90$ mmHg or is treated for hypertension (taking medication and/or been diagnosed as hypertensive by a medical professional in the past 6 months). 
+\item LAB BCD: Blood cadmium in nmol/L. 
+\item LAB BHG: Blood mercury in nmol/L.
+\end{itemize}
+}
+
+%
+%\textbf{Data}: Some features of the data
+%\begin{itemize}
+%\item Some fish lose their tag(s)
+%\item The front tag is lost more frequently than the back tag (see [])
+%\item Some fish are caught by fishers but are not be reported
+%\item Some fish die from natural mortality during the study
+%\item There is fish movement
+%%\item Migration outside of the study region is negligible
+%\end{itemize}
+
+
+
+\headerbox{Notation}{name=Notation,column=0,below=Introduction}{
+\textbf{Data}: Let $i$ denote the study participant, and $j$ the explanatory variable. The data can be summarized into the following quantities:
+\begin{itemize}
+\item n: Sample size
+\item $y_{i}$: Vector whose $i$th element is the HIGHBP value of the $i$th study participant
+\item $x_{i}$: Vector whose $j$th element is the observed value of the $j$th covariate for the $i$th study participant
+\item $w_{i}$: Vector whose $i$th element is the survey weight for the $i$th study participant
+\item $g()$: Link function 
+%\end{itemize}
+%\textbf{Parameters}:
+%\begin{itemize}
+\item $\mu_{i}$: Vector whose $i$th element equals the expected value of HIGHBP for the $i$th study participant
+\item $\hat{\beta_{j}}$: Vector whose $j$th element is the estimated coefficient of the $j$th explanatory variable
+\end{itemize}
+}
+
+
+
+\headerbox{Cleaning the Data}{name=Imputation,column=0,below=Notation}{
+
+\textbf{Censored Data}: The variables LAB BCD and LAB BHG both contained data that was below their respective Limit of Detection (LOD).
+\begin{itemize}
+\item This censored data was imputed with values randomly drawn from the interval [0, LOD].
+\item Popular alternatives include imputing using a single value such as LOD or LOD/2, but our approach should better account for the variance of the true (unknown) data.
+\end{itemize}
+
+\textbf{Missing Data}: Roughly $6\%$ of the observations across four variables contained missing data.
+\begin{itemize}
+\item This missing data was imputed using K-nearest neighbors (KNN), and 5-fold cross-validation was used to pick the number of neighbors K. 
+\item Four KNN models were built, each having as the response one of the four variables with missing data.
+\item The training set for these models was the set of all observations that did not contain any missing data.
+\end{itemize}
+
+}
+
+
+\headerbox{Model}{name=Model,column=1,span=1, row=0}{
+
+\textbf{Unweighted Model}: A generalized linear model without using design weights was first created.
+\begin{itemize}
+\item The response HIGHBP was modelled as independent categorical r.v.'s with parameters $u_{i}$.
+\item The logit link function was used to model the relationship between $u_{i}$ and the explanatory variables.
+\end{itemize}
+The parameter coefficients $\beta$ are estimated with their MLE's, which satisfy the following equation:
+
+\begin{equation}
+% This equation is supposed to equal the equation right before (3.1) in the paper "Fitting Regression Models to Survey Data" on github
+U(\hat{\beta}) = \sum_{i=1}{n} x_{i}\frac{1}{g'(\mu_{i})V(\mu_{i})}(y_{i} - \mu_{i}(\hat{\beta})) = 0
+\end{equation}
+
+\textbf{Weighted Model}: A model using the design weights was then created. 
+Following Lumley..., the score function above was altered to incorporate design weights, and this was solved to get the parameter estimates:
+
+\begin{equation}
+% This equation is supposed to equal (3.1) in the paper "Fitting Regression Models to Survey Data" on github (without R_i, since we use sample size n instead of population size N)
+U(\hat{\beta}) = \sum_{i=1}{n} w_{i}x_{i}\frac{1}{g'(\mu_{i})V(\mu_{i})}(y_{i} - \mu_{i}(\hat{\beta})) = 0
+\end{equation}
+}
+
+
+
+\headerbox{Exploratory Analysis}{name=EDA,column=1,below=Model}{
+
+\textbf{Purpose}: To determine whether higher-order terms should be included in the models.
+ In these plots, the continuous variables were made into categorical variables to avoid observed hypertension proportions of 0 or 1.
+
+\includegraphics[width=10em]{LogOdds_Age.png}
+\includegraphics[width=10em]{LogOdds_BMI.png}
+\includegraphics[width=10em]{LogOdds_Cadmium.png}
+\includegraphics[width=10em]{LogOdds_Mercury.png}
+
+% I can't generate the Latex file, so please change this if it looks bad!
+These graphs suggest that including second-order terms for HWMDBMI, LAB BCD, and LAB BHG in the model could be informative, but isn't necessary for CLC AGE.
+
+% Say something about how BIC also justifies this choice...
+}
+
+
+\headerbox{Hypothesis Testing Theory}{name=Testing,column=1,below=EDA}{
+\textbf{Null Hypothesis}: Suppose $\beta$ is partitioned by ($\beta_{(1)}$, $\beta_{(2)}$). The null hypothesis is $H_{0}$: $\beta_{(1)}$ = 0, where the dimension of $\beta_{(1)}$ is q.
+
+\textbf{Unweighted Model}: For the unweighted model, the log-likelihood ratio statistic was used to test $H_{0}$.
+Under the null hypothesis, this statistic follows a Chi-Square distribution with q degree of freedom.
+
+\textbf{Weighted Model}: A different method was now needed because the likelihood equations do not exist for the weighted model.
+ Following Lumley..., the standard likelihood function was altered to include weights:
+
+\begin{equation}
+% This should equal the equation right before (4.1) in the paper "Fitting Regression Models to Survey Data" on github
+\hat{\ell(\beta)} = \sum_{i=1}{n} w_{i}\log{f(y_{i}|x_{i}; \beta)}
+\end{equation}
+
+where f is the pdf of HIGHBP. The working likelihood ratio test statistic was then defined by Lumley as 
+
+\begin{equation}
+% This should equal the equation (4.1) in the paper "Fitting Regression Models to Survey Data" on github
+\tau = 2\left[\hat{\ell(\hat{\beta})} - \hat{\ell(\hat{\beta_{0}})} \right]
+\end{equation}
+
+where $\hat{\beta_{0}}$ is the solution to the weighted score function when $\beta_{(1)}$ = 0.
+Finally, $\tau$ has a rather complex distribution under $H_{0}$, but the saddlepoint approximation (Kuonen, 1999) can be used to approximate it.
+}
+
+
+
+\headerbox{Methods (cont'd)}{name=Methods2,column=2,span=1,row=0}{
+
+\textbf{Interpretation}: Element $(s,t)$ of the matrix $E(R_{ijDF})$ is the expected number of double tagged fish released in year $i$ in region $s$ ($\tilde N_{isDD}$) that survived ($\tilde \phi_{i}$) and migrated ($Q_{i}$) and were not captured $\big(1-\tilde p_{i}\big)$ during year $i$. Further, they survived, migrated and were not captured up to the end of year $j-1$. Then, during year $j$, they survived, migrated to region $t$ and finally were captured ($p_{j}$) with only a front tag ($\Lambda_{ijDF}$) and were reported ($\lambda_{jDF}$).\\
+
+\textbf{Tag Loss Model}: Following Brattey and Cadigan (2006) \cite{BC}, we model $\Lambda_{ilF}$ and $\Lambda_{ilG}$ using \textcolor{red}{Kirkwood's parametric model}. That is, for $h=F$ or $B$,
+\begin{equation}
+\Phi_{ilh} = \left[\frac{\beta_{1h}}{\beta_{1h}+\beta_{2h} (l-i)}\right]^{\beta_{2h}}, \beta_{1h}>0, \beta_{2h}>0.
+\end{equation}
+
+
+ \textbf{Constraining parameters}: Parameters that represent probabilities are constrained between 0 and 1 using a \textcolor{red}{logit transformation}.  Kirkwood's parameters in () are constrained $>0$ using an \textcolor{red}{exponential transformation}.\\
+
+ \textbf{Point \& Variance Estimation}: \textcolor{red}{Maximum likelihood} and Delta method\\ %$\prod_{\{i,j,g\}} R_{ijg}$\\
+
+ \textbf{Model Selection}: Due to the complexity of the model and the sparse, we have been able to fit only very few models with success. Therefore, we will only present the most sophisticated model we have been able to fit. We would suggest using QAIC to compare different models.\\
+
+ \textbf{Computing}: We use R version ... Our code is general for any time period length or number of regions. We use design matrices allowing to constraint some parameters to be equal.  (Newton-Raphson algorithm)
+ }
+
+
+
+\headerbox{Results}{name=Results,span=1,column=2,below=Methods2}{
+
+\textbf{Exploitation rates}: Table showing estimate(SE) in \% per region and year. \smaller{(*) : Unable to recover SE numerically}
+
+\begin{center}
+\scalebox{0.9}{\begin{tabular}{r|c|c|c|c}
+
+       &       East &        Off &      South &       West \\ \hline
+
+        1997 &   0.6(0.2) &   0.9(0.8) &   \textcolor{red}{5.5}(*) &  \textcolor{red}{8.1}(12.5) \\
+
+        1998 &   \textcolor{red}{5.5}(0.9) &   2.3(0.5) &   \textcolor{red}{5.9}(*) &   2.3(0.7) \\
+
+        1999 &  \textcolor{red}{11.3}(1.6) &   3.3(0.6) &       \textcolor{red}{13.4}(*) &   2.7(0.7) \\
+
+        2000 &   \textcolor{red}{5.8}(0.5) &        4.2(*) &  \textcolor{red}{12.5}(0.6) &   0.9(0.2) \\
+
+        2001 &   \textcolor{red}{7.8}(0.6) &        3.2(*) &  \textcolor{red}{11.2}(0.6) &   1.7(0.3) \\
+
+        2002 &   \textcolor{red}{7.6}(0.6) &        2.6(*) &   \textcolor{red}{8.9}(0.5) &   0.9(0.2) \\
+
+        2003 &  \textcolor{red}{14.8}(1.7) &   2.7(0.5) &   \textcolor{red}{8.2}(0.1) &   0.3(0.1) \\
+
+        2004 &   3.8(0.6) &   3.2(0.6) &   \textcolor{red}{7.4}(0.2) &   0.4(0.2) \\
+
+        2005 &   3.1(0.5) &   \textcolor{red}{6.4}(1.2) &   \textcolor{red}{7.4}(0.2) &   0.5(0.2) \\
+
+        2006 &   \textcolor{red}{5.9}(0.5) &  \textcolor{red}{5.4}(0.7) &   \textcolor{red}{8.1}(0.8) &   0.3(0.2) \\
+
+        2007 &   3.1(0.3) &  \textcolor{red}{21.4}(1.4) &   4.1(0.5) &   1.1(0.4) \\
+
+        2008 &   3.2(0.3) &  \textcolor{red}{10.3}(1.2) &   \textcolor{red}{7.1}(0.8) &   1.1(0.4) \\
+
+        2009 &   2.6(0.3) &        \textcolor{red}{7.8}(*) &   \textcolor{red}{5.0}(0.4) &   1.0(0.4) \\
+
+        2010 &   1.7(0.2) &        \textcolor{red}{6.9}(*) &   \textcolor{red}{5.6}(0.7) &   0.7(0.3) \\
+
+        2011 &   1.0(0.2) &   2.8(0.6) &   2.6(0.4) &   0.4(0.3) \\
+
+\end{tabular}}\end{center}
+
+\begin{multicols}{2}    % 3 columns
+
+\textbf{Tag Retention}: \\
+Estimated Cumulative Tag Retention Probabilities (Kirkwood's Model)
+
+\includegraphics[width=14em]{kirkwood.png}
+
+\textbf{Migration}:\\
+
+% Table generated by Excel2LaTeX from sheet 'simu2goodtables.txt'
+\scalebox{0.9}{\begin{tabular}{r|cccc}
+           &          E &          O &          S &          W \\ \hline
+
+         E &       \textcolor{red}{94.5} &        0.6 &        4.7 &        0.1 \\
+
+         O &        0.6 &       \textcolor{red}{47.6} &        5.2 &       \textcolor{red}{46.7} \\
+
+         S &        3.0 &        3.3 &       \textcolor{red}{93.2} &        0.6 \\
+
+         W &        0.3 &        1.9 &        0.2 &       \textcolor{red}{97.5} \\
+\end{tabular}} 
+
+\end{multicols}
+
+\textbf{Reporting rates:} For fish recovered as S, DF or DB, it varies from 18 \% to 99 \% with SE's ranging from 3 \% to 18 \%. For fish recovered as DD, it varies from 7 \% to 100 \% but many SE's are large and probably indicate identifiability problem. See ``further work''.\\
+
+}
+
+
+
+
+\headerbox{Results (cont'd)}{name=Results2,span=1,column=3,row=0}{
+
+\textbf{Annual Survival Rate} : 74.6 \%, SE=0.4. We investigated the \textcolor{red}{effect of doubling the natural death rate on exploitation rates} by fixing the survival probability to 49.3 \% in our model� Following table shows estimate(SE) in \% per region and year. \smaller{(*) : Unable to recover SE numerically}
+\begin{center}
+\scalebox{0.9}{\begin{tabular}{r|c|c|c|c}
+
+       &       East &        Off &      South &       West \\ \hline
+
+        1997 &   0.6(0.2) &   0.9(0.8) &   \textcolor{red}{5.5}(*) &  \textcolor{red}{8.1}(12.5) \\
+
+        1998 &   \textcolor{red}{5.5}(0.9) &   2.3(0.5) &   \textcolor{red}{5.9}(*) &   2.3(0.7) \\
+
+        1999 &  \textcolor{red}{11.3}(1.6) &   3.3(0.6) &       \textcolor{red}{13.4}(*) &   2.7(0.7) \\
+
+        2000 &   \textcolor{red}{5.8}(0.5) &        4.2(*) &  \textcolor{red}{12.5}(0.6) &   0.9(0.2) \\
+
+        2001 &   \textcolor{red}{7.8}(0.6) &        3.2(*) &  \textcolor{red}{11.2}(0.6) &   1.7(0.3) \\
+
+        2002 &   \textcolor{red}{7.6}(0.6) &        2.6(*) &   \textcolor{red}{8.9}(0.5) &   0.9(0.2) \\
+
+        2003 &  \textcolor{red}{14.8}(1.7) &   2.7(0.5) &   \textcolor{red}{8.2}(0.1) &   0.3(0.1) \\
+
+        2004 &   3.8(0.6) &   3.2(0.6) &   \textcolor{red}{7.4}(0.2) &   0.4(0.2) \\
+
+        2005 &   3.1(0.5) &   \textcolor{red}{6.4}(1.2) &   \textcolor{red}{7.4}(0.2) &   0.5(0.2) \\
+
+        2006 &   \textcolor{red}{5.9}(0.5) &  \textcolor{red}{5.4}(0.7) &   \textcolor{red}{8.1}(0.8) &   0.3(0.2) \\
+
+        2007 &   3.1(0.3) &  \textcolor{red}{21.4}(1.4) &   4.1(0.5) &   1.1(0.4) \\
+
+        2008 &   3.2(0.3) &  \textcolor{red}{10.3}(1.2) &   \textcolor{red}{7.1}(0.8) &   1.1(0.4) \\
+
+        2009 &   2.6(0.3) &        \textcolor{red}{7.8}(*) &   \textcolor{red}{5.0}(0.4) &   1.0(0.4) \\
+
+        2010 &   1.7(0.2) &        \textcolor{red}{6.9}(*) &   \textcolor{red}{5.6}(0.7) &   0.7(0.3) \\
+
+        2011 &   1.0(0.2) &   2.8(0.6) &   2.6(0.4) &   0.4(0.3) \\
+
+\end{tabular}}\end{center}
+
+}
+
+\headerbox{Further Work}{name=further,span=1,column=3,below=Results2}{
+\textbf{Length}: To be incorporated in the analysis because exploitation rate is known to vary by length. This involves growth curve estimation, see method in Cadigan and Brattey (2001) \cite{CB} which was applied to a subset of the 1997-2000 data. \\ %It is known that exploitation rates vary with fish length. We would like to take this into account in our model. In order to do so, we will have to model fish growth. Survival depends on length.
+%Hence, our exploitation rate estimates are valid if the distribution of the length of the released fish is the same as the length distribution in the population.
+
+\textbf{Population structure}: Use a latent-state model (eg. bayesian approach) to distinguish between resident inshore and migrant offshore cods. \\ %There is sub-structure within the population (resident inshore cod and migrant offshore cod). We would like to use a latent state model.
+
+\textbf{Reporting rates}: As in \cite{CB}, estimate the odds ratio of reporting double vs single low-reward tags, rather than estimating $\lambda_{DD}$ (results in improved precision in estimating double tag reporting rates and reduced number of parameters).\\  %Our attemps to implement this have been unsuccessful yet odds ratio like in Brattey and Cadigan but
+
+\textbf{Model Sophistication}: Fit models successfully using smaller time scale (season, month) and areas.\\
+
+\textbf{2-step MLE}: Preliminary developements suggest that likelihood can be broken in 2 pieces that can be maximized successively. This allows to estimate tag retention and reporting rates separately, reducing the complexity of the problem.\\
+}
+
+\headerbox{References}{name=references,column=3,below=further}{
+\smaller													% Make the whole text smaller
+\vspace{-0.4em} 										% Save some space at the beginning
+\bibliographystyle{plain}							% Use plain style
+\renewcommand{\section}[2]{\vskip 0.05em}		% Omit "References" title
+\begin{thebibliography}{1}							% Simple bibliography with widest label of 1
+\itemsep=-0.01em										% Save space between the separation
+\setlength{\baselineskip}{0.4em}					% Save space with longer lines
+
+\bibitem{BC} Brattey, J. and Cadigan N.G. (2006). Reporting and Shedding Rate Estimates From Tag-Recovery Experiments on Atlantic Cod (Gadus Morhua) in Coastal Newfoundland. \emph{Can. J. Fish. Aquatic Sc.}, 63(9), 1944-1944.
+
+\bibitem{CB} Cadigan N.G. and Brattey, J. (2001). A Nonparametric Von Bertalanffy Model for Estimating Growth Curves of Atlantic Cod. ICES CM 2001/O:18. Available from: http://www.ices.dk/products/CMdocs/2001/O/O1801.pdf. Accessed May 2012.
+
+\bibitem{Cowen} Cowen, L. et al. (2009). Estimating Exploitation Rates of a Migrating Population of Yellowtail Flounders Using Multi-State Mark-Recapture Methods Incorporating Tag-Loss and Variable Reporting Rates. \emph{Can. J. Fish. Aquatic Sc.}, 66, 1245-1273.
+
+\end{thebibliography}
+}
+
+\headerbox{Acknowledgements}{name=acknowledgements,column=3,below=references}{
+\smaller						% Make the whole text smaller
+\vspace{-0.4em}			% Save some space at the beginning
+We are indebted and very grateful to Laura Cowen for sharing her code from \cite{Cowen}. Special thanks to our mentor, Carl Schwarz. The authors acknowledge the support from NSERC.
+} 
+
+\end{poster}
+\end{document}

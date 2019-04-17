@@ -1,0 +1,1035 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.26)  31 MAY 2018 21:32
+entering extended mode
+**C:/Users/suns/Desktop/SSCcase_study2018/PosterSSC2018May.tex
+(C:/Users/suns/Desktop/SSCcase_study2018/PosterSSC2018May.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+(baposter.cls
+Document Class: baposter 2011/11/26 v2.0 baposter class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+baposter: Brian Amberg, 2007, 2008, 2009, 2010, 2011 | http://www.brian-amberg.
+de/uni/poster/
+baposter: Reinhold Kainhofer, 2011 | http://reinhold.kainhofer.com/
+\baposter@basepaperwidth=\skip43
+\baposter@basepaperheight=\skip44
+\baposter@basemargin=\skip45
+\baposter@finalpaperwidth=\skip46
+\baposter@finalpaperheight=\skip47
+\baposter@finalmargin=\skip48
+\headerheight=\skip49
+\colwidth=\skip50
+\colheight=\skip51
+\baposter@@colspacing=\skip52
+\baposter@box@@cornerradius=\skip53
+\baposter@box@@boxheaderheight=\skip54
+\baposter@box@@boxpadding=\skip55
+\boxstartx=\skip56
+\boxstarty=\skip57
+\boxwidth=\skip58
+\boxheight=\skip59
+\baposter@titleimage@left@width=\skip60
+\baposter@titleimage@right@width=\skip61
+\baposter@titleimage@textwidth=\skip62
+\baposter@box@content=\box26
+\baposter@titleimage@left=\box27
+\baposter@titleimage@title=\box28
+\baposter@titleimage@right=\box29
+Use Packages
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
+\XKV@depth=\count87
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count90
+\calc@Cskip=\skip65
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-com
+mon.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-com
+mon-lists.tex))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-lat
+ex.def
+\pgfutil@abb=\box30
+ (C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.code
+.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.co
+de.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.cod
+e.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfilt
+ered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen109
+\pgf@y=\dimen110
+\pgf@xa=\dimen111
+\pgf@ya=\dimen112
+\pgf@xb=\dimen113
+\pgf@yb=\dimen114
+\pgf@xc=\dimen115
+\pgf@yc=\dimen116
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count92
+\c@pgf@countb=\count93
+\c@pgf@countc=\count94
+\c@pgf@countd=\count95
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-pd
+ftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-co
+mmon-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyssof
+tpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count96
+\pgfsyssoftpath@bigbuffer@items=\count97
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyspro
+tocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.co
+de.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.code
+.tex
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.code
+.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.co
+de.tex
+\pgfmath@dimen=\dimen117
+\pgfmath@count=\count98
+\pgfmath@box=\box31
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.code.tex
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.basic.code.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.trigonometric.code.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.random.code.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.comparison.code.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.base.code.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.round.code.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.misc.code.tex)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions
+.integerarithmetics.code.tex)))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.cod
+e.tex
+\c@pgfmathroundto@lastzeros=\count99
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepoi
+nts.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen118
+\pgf@picmaxx=\dimen119
+\pgf@picminy=\dimen120
+\pgf@picmaxy=\dimen121
+\pgf@pathminx=\dimen122
+\pgf@pathmaxx=\dimen123
+\pgf@pathminy=\dimen124
+\pgf@pathmaxy=\dimen125
+\pgf@xx=\dimen126
+\pgf@xy=\dimen127
+\pgf@yx=\dimen128
+\pgf@yy=\dimen129
+\pgf@zx=\dimen130
+\pgf@zy=\dimen131
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepat
+hconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen132
+\pgf@path@lasty=\dimen133
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepat
+husage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen134
+\pgf@shorten@start@additional=\dimen135
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresco
+pes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count100
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregra
+phicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen136
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretra
+nsformations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen137
+\pgf@pt@y=\dimen138
+\pgf@pt@temp=\dimen139
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequi
+ck.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreobj
+ects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepat
+hprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorearr
+ows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen140
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresha
+de.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen141
+\pgf@sys@shading@range@num=\count101
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreima
+ge.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreext
+ernal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box35
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorelay
+ers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretra
+nsparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepat
+terns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleshap
+es.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box36
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleplot
+.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-v
+ersion-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen142
+\pgf@nodesepend=\dimen143
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-v
+ersion-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.cod
+e.tex))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.code
+.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+)
+\pgffor@iter=\dimen144
+\pgffor@skip=\dimen145
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\ti
+kz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryp
+lothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count102
+\pgfplotmarksize=\dimen146
+)
+\tikz@lastx=\dimen147
+\tikz@lasty=\dimen148
+\tikz@lastxsaved=\dimen149
+\tikz@lastysaved=\dimen150
+\tikzleveldistance=\dimen151
+\tikzsiblingdistance=\dimen152
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count103
+\tikznumberofchildren=\count104
+\tikznumberofcurrentchild=\count105
+\tikz@fig@count=\count106
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulematr
+ix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count107
+\pgfmatrixcurrentcolumn=\count108
+\pgf@matrix@numberofcolumns=\count109
+)
+\tikz@expandcount=\count110
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibrarydecorations.code.tex
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduledeco
+rations.code.tex
+\pgfdecoratedcompleteddistance=\dimen153
+\pgfdecoratedremainingdistance=\dimen154
+\pgfdecoratedinputsegmentcompleteddistance=\dimen155
+\pgfdecoratedinputsegmentremainingdistance=\dimen156
+\pgf@decorate@distancetomove=\dimen157
+\pgf@decorate@repeatstate=\count111
+\pgfdecorationsegmentamplitude=\dimen158
+\pgfdecorationsegmentlength=\dimen159
+)
+\tikz@lib@dec@box=\box41
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryf
+adings.code.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.7)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decorations
+\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decorations
+\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibrarydecorations.shapes.code.tex
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decorations
+\pgflibrarydecorations.shapes.code.tex)))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+\baposter@movebody=\skip66
+\baposter@basemarginright=\skip67
+\baposter@basemarginleft=\skip68
+
+Paperwidth=4191.65999pt
+Paperheight=3396.68999pt
+BasePaperwidth=1223.99593pt
+BasePaperheight=991.85876pt
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks28
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfpages.sty
+Package: pgfpages 2011/01/05 ver 0.02
+\pgf@logicalpages=\count115
+\pgf@firstshipout=\count116
+\pgf@lastshipout=\count117
+\pgf@currentshipout=\count118
+\pgf@cpn=\count119
+\pgf@shipoutnextto=\count120
+\pgfphysicalheight=\dimen168
+\pgfphysicalwidth=\dimen169
+\pgfpages@shipoutbox=\box42
+)
+\pgfpages@box@1=\box43
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+(C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen170
+\extrarowheight=\dimen171
+\NC@list=\toks29
+\extratabsurround=\skip69
+\backup@length=\skip70
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count121
+\mult@box=\box44
+\multicol@leftmargin=\dimen172
+\c@unbalance=\count122
+\c@collectmore=\count123
+\doublecol@number=\count124
+\multicoltolerance=\count125
+\multicolpretolerance=\count126
+\full@width=\dimen173
+\page@free=\dimen174
+\premulticols=\dimen175
+\postmulticols=\dimen176
+\multicolsep=\skip71
+\multicolbaselineskip=\skip72
+\partial@page=\box45
+\last@line=\box46
+\maxbalancingoverflow=\dimen177
+\mult@rightbox=\box47
+\mult@grightbox=\box48
+\mult@gfirstbox=\box49
+\mult@firstbox=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\c@columnbadness=\count127
+\c@finalcolumnbadness=\count128
+\last@try=\dimen178
+\multicolovershoot=\dimen179
+\multicolundershoot=\dimen180
+\mult@nat@firstbox=\box68
+\colbreak@box=\box69
+\mc@col@check@num=\count129
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(PosterSSC2018May.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 57.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (C:\Users\suns\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen181
+\scratchbox=\box70
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen182
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks31
+) ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(12.46262pt, 1199.0707pt, 12.46262pt)
+* v-part:(T,H,B)=(12.46262pt, 966.93353pt, 12.46262pt)
+* \paperwidth=1223.99593pt
+* \paperheight=991.85876pt
+* \textwidth=1199.0707pt
+* \textheight=966.93353pt
+* \oddsidemargin=-59.80737pt
+* \evensidemargin=-59.80737pt
+* \topmargin=-96.80737pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Poster rendering started
+Memory usage before: 574&320234; after: 546&320227; still untouched: 2674224
+<UFV.png, id=30, 301.125pt x 137.51375pt>
+File: UFV.png Graphic file (type png)
+ <use UFV.png>
+Package pdftex.def Info: UFV.png used on input line 130.
+(pdftex.def)             Requested size: 140.0pt x 63.93483pt.
+File: UFV.png Graphic file (type png)
+ <use UFV.png>
+Package pdftex.def Info: UFV.png used on input line 130.
+(pdftex.def)             Requested size: 140.0pt x 63.93483pt.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 130.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 130.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 130.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 130
+.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 130
+.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 130.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 130.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 130.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 156.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 156.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Memory usage before: 5787&327859; after: 5759&327852; still untouched: 2664502
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+<LogOdds_Age.png, id=34, 648.17157pt x 419.31656pt>
+File: LogOdds_Age.png Graphic file (type png)
+ <use LogOdds_Age.png>
+Package pdftex.def Info: LogOdds_Age.png used on input line 246.
+(pdftex.def)             Requested size: 100.0pt x 64.69267pt.
+
+<LogOdds_BMI.png, id=35, 648.17157pt x 419.31656pt>
+File: LogOdds_BMI.png Graphic file (type png)
+ <use LogOdds_BMI.png>
+Package pdftex.def Info: LogOdds_BMI.png used on input line 246.
+(pdftex.def)             Requested size: 100.0pt x 64.69267pt.
+
+<LogOdds_Cadmium.png, id=36, 648.17157pt x 419.31656pt>
+File: LogOdds_Cadmium.png Graphic file (type png)
+
+<use LogOdds_Cadmium.png>
+Package pdftex.def Info: LogOdds_Cadmium.png used on input line 246.
+(pdftex.def)             Requested size: 100.0pt x 64.69267pt.
+
+<LogOdds_Mercury.png, id=37, 648.17157pt x 419.31656pt>
+File: LogOdds_Mercury.png Graphic file (type png)
+
+<use LogOdds_Mercury.png>
+Package pdftex.def Info: LogOdds_Mercury.png used on input line 246.
+(pdftex.def)             Requested size: 100.0pt x 64.69267pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[][] []
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+
+ []
+
+
+LaTeX Warning: Citation `BC' on page 1 undefined on input line 293.
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 293--293
+[]\T1/lmr/bx/n/10 Constraining pa-ram-e-ters\T1/lmr/m/n/10 : Pa-ram-e-ters that
+ rep-re-sent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 364.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 364.
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\T1/lmr/m/n/8 Estimated Cu-mu-la-tive Tag Re-
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 364--364
+\T1/lmr/m/n/8 ten-tion Prob-a-bil-i-ties (Kirk-wood's
+ []
+
+
+LaTeX Warning: File `kirkwood.png' not found on input line 364.
+
+
+! Package pdftex.def Error: File `kirkwood.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364 }
+       
+? 
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 364.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+LaTeX Warning: Citation `CB' on page 1 undefined on input line 422.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+LaTeX Warning: Citation `CB' on page 1 undefined on input line 422.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
+[]\T1/lmr/m/n/8 Cadigan N.G. and Brat-tey, J. (2001). A Non-para-met-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
+\T1/lmr/m/n/8 ric Von Berta-lanffy Model for Es-ti-mat-ing Growth Curves
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
+\T1/lmr/m/n/8 of At-lantic Cod. ICES CM 2001/O:18. Avail-able from:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
+\T1/lmr/m/n/8 http://www.ices.dk/products/CMdocs/2001/O/O1801.pdf. Ac-cessed
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+LaTeX Warning: Citation `Cowen' on page 1 undefined on input line 446.
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+[2
+
+{C:/Users/suns/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./UFV.png> <
+./LogOdds_Age.png> <./LogOdds_BMI.png> <./LogOdds_Cadmium.png> <./LogOdds_Mercu
+ry.png>]
+Memory usage before: 79868&363447; after: 42515&353992; still untouched: 255026
+2
+(PosterSSC2018May.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15208 strings out of 493673
+ 322201 string characters out of 3141577
+ 449738 words of memory out of 3000000
+ 18211 multiletter control sequences out of 15000+200000
+ 59744 words of font info for 44 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 62i,13n,76p,616b,961s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
+/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
+msy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb>
+Output written on PosterSSC2018May.pdf (1 page, 379207 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+
